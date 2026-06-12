@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sijan Shrestha — Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Grid Background -->
+    <div class="stripe-bg" aria-hidden="true">
+      <span></span><span></span><span></span><span></span> <span></span
+      ><span></span><span></span><span></span> <span></span><span></span
+      ><span></span><span></span>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- ── NAV ── -->
+    <nav id="navbar">
+      <a class="nav-logo" href="#home"
+        ><img src="logo.png" alt="" width="200px" height="auto"
+      /></a>
+      <div class="nav-ticker-wrap">
+        <ul class="nav-links nav-ticker" id="navTicker">
+          <li><a href="#home" data-section="home">Home</a></li>
+          <li><a href="#skills" data-section="skills">Skills</a></li>
+          <li><a href="#work" data-section="work">Recent Work</a></li>
+          <li><a href="#contact" data-section="contact">Get In Touch</a></li>
+          <li><a href="#home" data-section="home">Home</a></li>
+          <li><a href="#skills" data-section="skills">Skills</a></li>
+          <li><a href="#work" data-section="work">Recent Work</a></li>
+          <li><a href="#contact" data-section="contact">Get In Touch</a></li>
+        </ul>
+      </div>
+      <button
+        class="nav-hamburger"
+        id="hamburger"
+        aria-label="Toggle menu"
+        style="justify-self: end"
+      >
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- Mobile Nav Drawer -->
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#home" class="mob-link">Home</a>
+      <a href="#skills" class="mob-link">Skills</a>
+      <a href="#work" class="mob-link">Recent Work</a>
+      <a href="#contact" class="mob-link">Contact</a>
+    </div>
+
+    <!-- 
+       SECTION: HOME
+   -->
+    <section id="home">
+      <div class="hero">
+        <div class="hero-text">
+          <p class="hero-eyebrow">Frontend Developer</p>
+          <h1 class="hero-name">Sijan<br />Shrestha</h1>
+          <p class="hero-desc">
+            A passionate developer specializing in creating clean, efficient,
+            and user-friendly experiences for websites and web applications.
+          </p>
+          <div class="hero-actions">
+            <a class="btn-primary" href="#work">View My Work</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="avatar-wrap">
+            <div class="avatar-placeholder">
+              <img src="sijan.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 
+       SECTION: SKILLS
+   -->
+    <section id="skills">
+      <div class="section-inner">
+        <p class="section-label reveal">What I Know</p>
+        <h2 class="section-title reveal">My Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <span class="skill-icon"><i class="fa-brands fa-figma"></i></span>
+            <div class="skill-card-title">UI / UX Design</div>
+            <p class="skill-card-desc">
+              Basic understanding of user interface and experience design —
+              creating clean, user-friendly layouts and wireframes that put the
+              user first.
+            </p>
+          </div>
+          <div class="skill-card reveal">
+            <span class="skill-icon"><i class="fa-brands fa-html5"></i></span>
+            <div class="skill-card-title">HTML</div>
+            <p class="skill-card-desc">
+              Solid command of semantic HTML5 and modern CSS3 — building
+              structured, responsive, and visually polished web pages from
+              scratch.
+            </p>
+          </div>
+          <div class="skill-card reveal">
+            <span class="skill-icon"><i class="fa-brands fa-css3"></i></span>
+            <div class="skill-card-title">CSS</div>
+            <p class="skill-card-desc">
+              Solid command of modern CSS3 — building responsive, and visually
+              polished web pages from scratch.
+            </p>
+          </div>
+          <div class="skill-card reveal">
+            <span class="skill-icon"
+              ><i class="fa-brands fa-bootstrap"></i
+            ></span>
+            <div class="skill-card-title">Bootstrap</div>
+            <p class="skill-card-desc">
+              Proficient with Bootstrap's grid system and components to rapidly
+              prototype and build mobile-first responsive layouts with
+              consistency.
+            </p>
+          </div>
+          <div class="skill-card reveal">
+            <span class="skill-icon">
+              <i class="fa-brands fa-tailwind-css"></i
+            ></span>
+            <div class="skill-card-title">Tailwind</div>
+            <p class="skill-card-desc">
+              Proficient with Tailwind system and components to rapidly
+              prototype and build mobile-first responsive layouts with
+              consistency.
+            </p>
+          </div>
+
+          <div class="skill-card reveal">
+            <span class="skill-icon"> <i class="fa-brands fa-sass"></i></span>
+            <div class="skill-card-title">Tailwind</div>
+            <p class="skill-card-desc">
+              Proficient with Sass system and components to rapidly prototype
+              and build mobile-first responsive layouts with consistency.
+            </p>
+          </div>
+
+          <div class="skill-card reveal">
+            <span class="skill-icon"><i class="fa-brands fa-react"></i></span>
+            <div class="skill-card-title">React</div>
+            <p class="skill-card-desc">
+              Building dynamic, component-driven UIs with React — managing
+              state, props, hooks, and reusable component architecture
+              efficiently.
+            </p>
+          </div>
+          <div class="skill-card reveal">
+            <span class="skill-icon">◎</span>
+            <div class="skill-card-title">Next.js</div>
+            <p class="skill-card-desc">
+              Developing fast, SEO-friendly web applications with Next.js —
+              leveraging server-side rendering, static generation, and
+              file-based routing.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+       SECTION: RECENT WORK
+ -->
+    <section id="work">
+      <div class="section-inner">
+        <p class="section-label reveal">Portfolio</p>
+        <h2 class="section-title reveal">Recent Work</h2>
+        <div class="projects-grid">
+          <div class="project-card reveal">
+            <div
+              class="project-thumb"
+              style="background: linear-gradient(135deg, #1a0808, #2d0a0a)"
+            >
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="project-body">
+              <span class="project-tag">React · Bootstrap</span>
+              <div class="project-title">E-Commerce Store</div>
+              <p class="project-desc">
+                A modern online shopping platform with product listings, cart
+                management, checkout flow, and order tracking.
+              </p>
+            </div>
+          </div>
+          <div class="project-card reveal">
+            <div
+              class="project-thumb"
+              style="background: linear-gradient(135deg, #081a0a, #0a2d0d)"
+            >
+              <i class="fa-solid fa-newspaper"></i>
+            </div>
+            <div class="project-body">
+              <span class="project-tag">Next.js · CSS</span>
+              <div class="project-title">News Portal</div>
+              <p class="project-desc">
+                A responsive news portal with category filtering, dynamic
+                article pages, and a clean editorial layout.
+              </p>
+            </div>
+          </div>
+          <div class="project-card reveal">
+            <div
+              class="project-thumb"
+              style="background: linear-gradient(135deg, #08081a, #0a0a2d)"
+            >
+              <i class="fa-solid fa-clapperboard"></i>
+            </div>
+            <div class="project-body">
+              <span class="project-tag">React · HTML &amp; CSS</span>
+              <div class="project-title">Netflix Clone</div>
+              <p class="project-desc">
+                A pixel-perfect Netflix UI clone featuring hero banners,
+                scrollable content rows, and hover preview cards.
+              </p>
+            </div>
+          </div>
+          <div class="project-card reveal">
+            <div
+              class="project-thumb"
+              style="background: linear-gradient(135deg, #1a1008, #2d1a0a)"
+            >
+              <i class="fa-solid fa-plane-departure"></i>
+            </div>
+            <div class="project-body">
+              <span class="project-tag">HTML · CSS · Bootstrap</span>
+              <div class="project-title">Corporate Tours</div>
+              <p class="project-desc">
+                A travel and tours company website with destination listings,
+                itinerary details, and a booking enquiry form.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 
+       SECTION: CONTACT
+ -->
+    <section id="contact">
+      <div class="section-inner">
+        <p class="section-label reveal">Let's Talk</p>
+        <h2 class="section-title reveal">Get In Touch</h2>
+        <div class="contact-grid">
+          <div class="contact-info-col reveal">
+            <p>
+              Have a project in mind or just want to say hello? I'm currently
+              available for freelance and full-time opportunities. Drop me a
+              message!
+            </p>
+            <div class="contact-detail">
+              <div class="contact-detail-icon">
+                <i class="fa-regular fa-envelope"></i>
+              </div>
+              <div class="contact-detail-text">
+                <strong>Email</strong><span>shresthasijan002@gmail.com</span>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="contact-detail-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-detail-text">
+                <strong>Location</strong><span>Kathmandu, Nepal</span>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="contact-detail-icon">
+                <i class="fa-solid fa-signal"></i>
+              </div>
+              <div class="contact-detail-text">
+                <strong>Availability</strong
+                ><span style="color: var(--accent)">Open to opportunities</span>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="contact-detail-icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="contact-detail-text">
+                <strong>Phone</strong><span>9823106023, 9820033568</span>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form reveal" onsubmit="handleSubmit(event)">
+            <div class="form-row">
+              <div class="form-group">
+                <label>Your Name</label>
+                <input type="text" placeholder="Full Name" required />
+              </div>
+              <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" placeholder="john@example.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Subject</label>
+              <input type="text" placeholder="Project Enquiry" />
+            </div>
+            <div class="form-group">
+              <label>Message</label>
+              <textarea
+                rows="6"
+                placeholder="Tell me about your project..."
+              ></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Send Message →</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2026 Sijan Shrestha. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="https://github.com/shresthasijan002"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/sijan-shrestha-4935b6351/"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </footer>
+
+    <script src="portfolio.js"></script>
+  </body>
+</html>
